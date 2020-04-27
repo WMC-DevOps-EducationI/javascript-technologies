@@ -8,3 +8,4 @@ Javascript Technologies Principles and Applications in a Full Stack context.
 
 1. [Udemy Course about Socket.io and Chats with Node.js](https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas/learn/lecture/10151382#questions).
 2. [NodeJS-Testing libraries](https://www.paradigmadigital.com/dev/testeando-javascript-mocha-chai/).
+3. [NodeJS-Socket.io testing approach](https://alexzywiak.github.io/testing-socket-io-with-mocha-and-chai/index.html).
