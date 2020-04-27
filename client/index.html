@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Socket.io NodeJS Client</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Chat with Socket.io and Express - Node.js</h1>
+    <div id="messages">
+    </div>
+
+    <form onsubmit="return sendMessage(this);">
+        <input id="ide" type="text" placeholder="client"><br>
+        <textarea id="inputMessage" placeholder="Message: "></textarea>
+        <br>
+        <input type="submit" value="Send message" />
+    </form>
+
+    <h3>References: <a href="https://www.udemy.com/course/master-en-javascript-aprender-js-jquery-angular-nodejs-y-mas">Master in Javascript - Udemy</a></h3>
+</body>
+
+</html>

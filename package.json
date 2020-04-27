@@ -1,0 +1,29 @@
+{
+    "name": "javascript-technologies",
+    "version": "1.0.0",
+    "description": "Chat with Socket.io",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec",
+        "start": "nodemon server/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/WMC-DevOps-EducationI/javascript-technologies.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/WMC-DevOps-EducationI/javascript-technologies/issues"
+    },
+    "homepage": "https://github.com/WMC-DevOps-EducationI/javascript-technologies#readme",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "express": "^4.17.1",
+        "mocha": "^7.1.2",
+        "socket.io": "^2.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
+}
